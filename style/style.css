@@ -1,0 +1,53 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.title{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+}
+.search-bar{
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input{
+  width : 60%;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.video-list img{
+  max-width: 80px;
+}
+.video-title{
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.video-title : hover{
+  font-weight: bold;
+}
+.video-detail .details{
+  margin-top:10px;
+  padding: 10px;
+  border : 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+}
+
+.list-group-item{
+  cursor: pointer;
+}
+
+.list-group-item:hover{
+  background-color: #ddd;
+}
+
+.desc-video{
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+}
