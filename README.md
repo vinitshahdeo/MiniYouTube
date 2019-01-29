@@ -28,4 +28,4 @@ const API_KEY = 'XXXXXXXXXXXX'; // REPLACE IT WITH YOUR YOUTUBE API KEY
 
 ### Thanks!
 
-[![Author](https://img.shields.io/badge/Author-@vinitshahdeo-gray.svg?colorA=gray&colorB=dodgerblue)](https://github.com/vinitshahdeo/)
+[![Vinit Shahdeo](https://img.shields.io/badge/Author-@vinitshahdeo-teal.svg?colorA=red&colorB=blue)](https://github.com/vinitshahdeo/)
