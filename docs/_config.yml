@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+title: Mini YouTube
+show_downloads: true
+footer-links:
+  email: vinitshahdeo@gmail.com
+  facebook: vinit.shahdeo
+  flickr:
+  github: vinitshahdeo
+  instagram: vinitshahdeo
+  linkedin: vinitshahdeo
