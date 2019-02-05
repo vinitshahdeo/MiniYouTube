@@ -1,5 +1,6 @@
 theme: jekyll-theme-architect
-
+title: Mini YouTube
+show_downloads : true
 footer-links:
   email: vinitshahdeo@gmail.com
   facebook: vinit.shahdeo
