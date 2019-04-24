@@ -1,7 +1,9 @@
 # Mini YouTube
+
+[![MiniYouTube](https://img.shields.io/badge/Mini-YouTube-orange.svg?style=for-the-badge&logo=youtube)](https://github.com/vinitshahdeo/MiniYouTube/) [![MiniYouTube](https://img.shields.io/badge/React-App-teal.svg?style=for-the-badge&logo=react)](https://github.com/vinitshahdeo/MiniYouTube/) [![Youtube API](https://img.shields.io/badge/YouTube-API-critical.svg?style=for-the-badge&logo=youtube)](https://developers.google.com/youtube/v3/getting-started)
+
 ### A React App using YouTube API
 
-[![MiniYouTube](https://img.shields.io/badge/Mini-YouTube-orange.svg)](https://github.com/vinitshahdeo/MiniYouTube/) [![Youtube API](https://img.shields.io/badge/YouTube-API-dodgerblue.svg)](https://developers.google.com/youtube/v3/getting-started)
 
 ![View Demo](https://github.com/vinitshahdeo/MiniYouTube/blob/master/miniyoutube-gif.gif?raw=true)
 
@@ -28,4 +30,4 @@ const API_KEY = 'XXXXXXXXXXXX'; // REPLACE IT WITH YOUR YOUTUBE API KEY
 
 ### Thanks!
 
-[![Vinit Shahdeo](https://img.shields.io/badge/Author-@vinitshahdeo-teal.svg?colorA=red&colorB=blue)](https://github.com/vinitshahdeo/)
+[![Vinit Shahdeo](https://img.shields.io/badge/Author-@vinitshahdeo-teal.svg?colorA=grey&colorB=blue&logo=github)](https://github.com/vinitshahdeo/)
