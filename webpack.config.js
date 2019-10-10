@@ -27,4 +27,4 @@ module.exports = {
       poll: 1000
     }
   }
-};
+}
