@@ -2,6 +2,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 .title{
+  margin-top: 10px;
   text-align: center;
   font-weight: bold;
   font-family: 'Anton', sans-serif;
@@ -13,9 +14,7 @@ body{
 
 .search-bar input{
   width : 60%;
-  font-weight: bold;
   text-align: center;
-  font-family: 'Montserrat',sans-serif;
 }
 
 .video-list img{
@@ -23,10 +22,9 @@ body{
 }
 .video-title{
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
-.video-title : hover{
+.video-title:hover{
   font-weight: bold;
 }
 .video-detail .details{
@@ -35,8 +33,7 @@ body{
   border : 1px solid #ddd;
   border-radius: 4px;
   font-size: 18px;
-  font-family: 'Montserrat',sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .list-group-item{
@@ -48,6 +45,5 @@ body{
 }
 
 .desc-video{
-  font-family: Montserrat, sans-serif;
   font-size: 14px;
 }
