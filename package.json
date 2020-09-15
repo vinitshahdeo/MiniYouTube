@@ -8,6 +8,7 @@
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
+    "test-lint": "./node_modules/.bin/eslint . --ext .js --ext .json, ./examples --ext .js --ext .json, ./data --ext .json --ignore-pattern node_modules/"
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors"
   },
   "author": "",
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+	"eslint": "^6.5.1",
     "lodash": "^3.10.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
