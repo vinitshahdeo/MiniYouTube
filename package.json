@@ -5,6 +5,7 @@
   "main": "index.js",
   "repository": "git@github.com:vinitshahdeo/MinYouTube.git",
   "scripts": {
+    "lint": "eslint",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
@@ -17,6 +18,8 @@
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.1.18",
     "babel-preset-react": "^6.1.18",
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.16.0",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },
