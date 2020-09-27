@@ -2,6 +2,8 @@
 
 [![MiniYouTube](https://img.shields.io/badge/Mini-YouTube-orange.svg?style=for-the-badge&logo=youtube)](https://github.com/vinitshahdeo/MiniYouTube/) [![MiniYouTube](https://img.shields.io/badge/React-App-teal.svg?style=for-the-badge&logo=react)](https://github.com/vinitshahdeo/MiniYouTube/) [![Youtube API](https://img.shields.io/badge/YouTube-API-critical.svg?style=for-the-badge&logo=youtube)](https://developers.google.com/youtube/v3/getting-started)
 
+> **[How to get YouTube API Key](https://www.slickremix.com/docs/get-api-key-for-youtube/)**
+
 ### A React App using YouTube API
 
 
