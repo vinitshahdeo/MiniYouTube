@@ -9,6 +9,7 @@ import YTSearch from 'youtube-api-search';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
+import ErrorMessage from './components/error_message'
 
 const API_KEY = 'XXXXXXXXXXXX'; // REPLACE IT WITH YOUR YOUTUBE API KEY
 
@@ -33,7 +34,8 @@ class App extends Component{
 
     this.state = {
       videos : [],
-      selectedVideo : null
+      selectedVideo : null,
+      loadingError: false
     };
 
     this.videoSearch('Shreya Ghosal');
@@ -41,25 +43,33 @@ class App extends Component{
   }
   videoSearch(term){
     YTSearch({key : API_KEY, term : term}, (videos) => {
-        //console.log(videos);
-        //this.setState({videos});
-        //this.setState({videos : videos})
-        this.setState({
-          videos : videos,
-          selectedVideo : videos[0]
-        })
+        if(videos !== 'error'){
+          this.setState({
+            videos : videos,
+            selectedVideo : videos[0],
+            loadingError: false
+          })
+        }
+        else{
+          this.setState({loadingError: true})
+        }
     });
   }
    render(){
-     return(
-       <div>
-        <SearchBar onSearchTermChange = {term => this.videoSearch(term)}/>
-        <VideoDetail video={this.state.selectedVideo} />
-        <VideoList
-          onVideoSelect = {selectedVideo => {this.setState({selectedVideo})}}
-          videos={this.state.videos}/>
-       </div>
-     );
+     if(!this.state.loadingError){
+       return(
+         <div>
+          <SearchBar onSearchTermChange = {term => this.videoSearch(term)}/>
+          <VideoDetail video={this.state.selectedVideo} />
+          <VideoList
+            onVideoSelect = {selectedVideo => {this.setState({selectedVideo})}}
+            videos={this.state.videos}/>
+         </div>
+       );
+     }
+     else{
+      return <ErrorMessage error="Can't reach Youtube... Check your API Key" />;
+     }
    }
 }
 
