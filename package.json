@@ -9,7 +9,8 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors"
-    
+    ,"lint":"eslint src/**/*.js",
+    "lint-fix":"eslint src/**/*.js --fix"
   },
   "author": "",
   "license": "ISC",
