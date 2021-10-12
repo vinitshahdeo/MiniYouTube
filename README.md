@@ -9,9 +9,15 @@
 
 ### How to run?
 
-- Clone the repository : `git clone https://github.com/vinitshahdeo/MiniYouTube/`
+- Clone the repository : 
+ ```sh
+ git clone https://github.com/vinitshahdeo/MiniYouTube/
+ ```
 
-- Run `npm install`
+- Run 
+ ```sh
+ npm install
+ ```
 
 - Replace **`API_KEY=XXXXXXXXXX`** in `src/index.js` with your own YouTube API key.
 
@@ -21,9 +27,15 @@ const API_KEY = 'XXXXXXXXXXXX'; // REPLACE IT WITH YOUR YOUTUBE API KEY
 
 ```
 
-- Run `npm run start`
+- Run 
+```sh
+ npm run start
+```
 
-- Open browser and go to `http://localhost:8080/`
+- Open browser and go to 
+```sh
+ http://localhost:8080/
+ ```
 
 
 > #### Get your YouTube API key [here](https://developers.google.com/youtube/v3/getting-started)
