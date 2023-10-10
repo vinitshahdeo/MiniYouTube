@@ -10,7 +10,7 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
-const API_KEY = 'XXXXXXXXXXXX'; // REPLACE IT WITH YOUR YOUTUBE API KEY
+const API_KEY = 'AIzaSyAaSwRKSVuGy8txgExR-RNnekNAnRaXhFo'; // REPLACE IT WITH YOUR YOUTUBE API KEY
 
 
 // YTSearch({key : API_KEY, term : 'Katrina Kaif'}, function(data){

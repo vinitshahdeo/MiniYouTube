@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A simple YouTube App using ReactJS",
   "main": "index.js",
-  "repository": "git@github.com:vinitshahdeo/MinYouTube.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vinitshahdeo/MinYouTube.git"
+  },
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
@@ -28,5 +31,14 @@
     "react-redux": "5.0.7",
     "redux": "4.0.0",
     "youtube-api-search": "0.0.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/vinitshahdeo/MinYouTube/issues"
+  },
+  "homepage": "https://github.com/vinitshahdeo/MinYouTube#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "keywords": []
 }
